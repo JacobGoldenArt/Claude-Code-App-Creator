@@ -1,0 +1,9 @@
+{
+  "name": "app-creator",
+  "version": "0.1.0",
+  "description": "Guided discovery workflow for clarifying app ideas and breaking them into atomic, testable features",
+  "author": {
+    "name": "JG"
+  },
+  "keywords": ["discovery", "planning", "features", "app-development", "preflight"]
+}
