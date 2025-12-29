@@ -1,6 +1,6 @@
 # App Creator Plugin
 
-A Claude Code plugin for clarifying app ideas and breaking them into atomic, testable features before writing any code.
+A Claude Code plugin for clarifying app ideas and breaking them into atomic, testable features before writing any code. This plugin is meant to be used in the discovery phase of app development. There is another plugin that I'm working on that will be used in the development phase.
 
 ## Overview
 
@@ -44,3 +44,6 @@ claude --plugin-dir /path/to/app-creator
 ```
 
 Or copy to your project's `.claude-plugin/` directory.
+
+Note: This plugin is not yet published to the Claude Code marketplace.
+It is not affiliated with Anthropic or Claude in anyway. Use it if you like it.
