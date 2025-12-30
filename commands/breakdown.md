@@ -64,6 +64,8 @@ Create 8-15 specific, observable tests:
 Include any implementation considerations:
 - Technical approaches to consider
 - Potential gotchas
+- External SDKs and APIs that might be needed
+- Libraries/dependencies/requirements that might be needed
 - Accessibility requirements
 - Performance considerations
 
@@ -79,6 +81,11 @@ Use this structure for each feature:
 **Description:** [What the user experiences when this feature works]
 
 **Dependencies:** None | [Feature numbers]
+
+**Development Requirements:** [Do we need to install any dependencies?]
+
+**Human tasks Required:** [What human tasks are required to complete this feature? Do they
+need to create an account, provide an api key, provide data?]
 
 **Tests:**
 - [ ] [Specific, observable outcome]

@@ -141,75 +141,13 @@ This project follows a structured feature-by-feature development workflow. Befor
 
 ## progress.md Template
 
-```markdown
-# Development Progress
-
-Session-by-session log of development work on this project.
-
----
-
-## Discovery Session
-
-**Date:** [DATE]
-
-### Summary
-
-[2-3 paragraphs summarizing what was discussed and decided during the discovery session]
-
-### Key Decisions
-
-- [Decision 1]
-- [Decision 2]
-- [Decision 3]
-
-### App Overview
-
-[Brief description of the app being built]
-
-### Feature Count
-
-- Total features identified: [N]
-- Core features: [N]
-- Nice-to-have features: [N]
-
-### Tech Stack Decisions
-
-- [Technology choice and reasoning]
-- [Another technology choice]
-
-### Next Steps
-
-- [ ] Begin implementation with Feature 1: [Name]
-- [ ] Set up project scaffolding
-- [ ] [Other next steps]
-
----
-
-<!--
-TEMPLATE FOR DEVELOPMENT SESSIONS:
-
-## Session [N]: [Brief Title]
-
-**Date:** [DATE]
-
-### Completed
-
-- [x] [What was accomplished]
-
-### In Progress
-
-- [ ] [What's still being worked on]
-
-### Blockers
-
-- [Any issues encountered]
-
-### Notes
-
-[Any important observations or decisions made during this session]
-
--->
-```
+See **`progress-template.md`** for comprehensive progress.md templates covering:
+- Discovery session
+- Dev-protocol init
+- Sprint completion
+- Session paused/interrupted
+- Feature skipped
+- Project complete
 
 ---
 

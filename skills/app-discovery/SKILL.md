@@ -189,7 +189,9 @@ Cover these aspects for each feature:
 For templates and detailed examples:
 - **`references/templates.md`** - File templates (features.md, CLAUDE.md, progress.md)
 - **`references/example-features.md`** - Well-defined feature examples
+- **`references/progress-template.md`** - Detailed progress.md structure and guidelines
+- **`references/package-templates.md`** - package.json/pyproject.toml templates by tech stack
 
 ### Using Templates
 
-When creating output files, load the appropriate template from `references/templates.md` and adapt it to the specific project.
+When creating output files, load the appropriate template from `references/` and adapt it to the specific project. The finalize step generates both documentation files and the package configuration file.

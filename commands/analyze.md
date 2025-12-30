@@ -58,6 +58,17 @@ Create a preliminary feature list:
 - Clear boundaries between features
 - Identify dependencies between features
 
+### 6. Define the Initial Tech Stack
+
+Determine the tech stack for the app:
+- Frontend
+- Backend
+- Database
+- ORM
+- External SDKs and APIs that will be used
+- list of libraries/dependencies/requirements that will be needed
+
+
 ## Output
 
 Create a structured summary including:

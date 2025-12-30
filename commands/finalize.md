@@ -18,7 +18,9 @@ If no confirmed feature list exists, inform the user to complete the earlier ste
 ## Load Templates
 
 Read the file templates:
-- `app-creator/skills/app-discovery/references/templates.md`
+- `app-creator/skills/app-discovery/references/templates.md` - Doc file templates
+- `app-creator/skills/app-discovery/references/package-templates.md` - Package config templates
+- `app-creator/skills/app-discovery/references/progress-template.md` - Progress structure
 
 Use these templates as the basis for the output files.
 
@@ -62,7 +64,7 @@ Create the project context file:
 
 Create the progress log:
 
-1. Use the template from `references/templates.md`
+1. Use the template from `references/templates.md` and `references/progress-template.md`
 2. Document the discovery session
 3. Include key decisions made
 4. Summarize the app overview
@@ -70,12 +72,29 @@ Create the progress log:
 6. Document tech stack decisions
 7. Add next steps checklist
 
+### 4. package.json or pyproject.toml
+
+Generate the package configuration based on tech stack:
+
+1. Read `references/package-templates.md` for templates
+2. Determine if Node/Python from CLAUDE.md tech stack
+3. Start with base template for that stack
+4. Add dependencies identified during discovery (from features, analyze, breakdown)
+5. Include testing libraries (vitest for Node, pytest for Python)
+6. Keep minimal — only what's needed for v1
+
+**For Node projects:** Create `package.json` at project root
+**For Python projects:** Create `pyproject.toml` at project root
+
+Do NOT run install commands — that's dev-protocol:init's job.
+
 ## File Locations
 
 Write files to:
 - `./CLAUDE.md` (project root)
 - `./docs/features.md`
 - `./docs/progress.md`
+- `./package.json` or `./pyproject.toml` (based on tech stack)
 
 ## Output Summary
 
@@ -90,8 +109,9 @@ Inform the user:
 
 1. **Review the files** - Make sure everything looks right
 2. **Commit to git** - `git add . && git commit -m "Initial discovery documentation"`
-3. **Start development** - Begin with Feature 1
-4. **Use `/app-creator:revise`** - When features need updating during development
+3. **Run `/dev-protocol:init`** - Installs dependencies and sets up sprint infrastructure
+4. **Run `/dev-protocol:sprint`** - Begin building Feature 1
+5. **Use `/app-creator:revise`** - When features need updating during development
 
 ## Completion Message
 
@@ -100,8 +120,9 @@ Discovery complete! Created:
 - CLAUDE.md (project context)
 - docs/features.md (N features with tests)
 - docs/progress.md (session summary)
+- package.json (or pyproject.toml) with dependencies
 
-Next: Review the files, commit to git, then start building Feature 1.
+Next: Run `/dev-protocol:init` to scaffold the project and install dependencies.
 
 During development, use `/app-creator:revise` to update features based on what you learn.
 ```

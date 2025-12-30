@@ -25,6 +25,8 @@ Display a summary view of all features:
 - Feature count and names
 - Dependency map (what depends on what)
 - Estimated implementation order
+- Fully proposed tech stack and any anticipated external packages/libraries/requirements
+- A list of any human tasks required to complete the features
 
 Ask: "Does this capture your app?"
 
