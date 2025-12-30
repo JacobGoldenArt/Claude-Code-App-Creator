@@ -12,6 +12,9 @@ App Creator guides you through a structured discovery process:
 4. **Review** - Refine until "yes, that's my app"
 5. **Finalize** - Generate structured documentation
 
+## Note
+This is a sibling plugin with my Dev Protocol Plugin. Run this first to flesh out the plan, then use Dev Protocol to run a tight dev loop. - https://github.com/JacobGoldenArt/Claude-Code-Dev-Protocol-Plugin
+
 ## Commands
 
 | Command | Description |
